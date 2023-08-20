@@ -1,0 +1,1639 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:wght@400;500;700;900&family=Quicksand:wght@400;500;700&family=Roboto:wght@400;500;700;900&display=swap');
+:root{
+    --Montserrat: 'Montserrat', serif;
+    --Quicksand: 'Quicksand', sans-serif;
+    --Playfair: 'Playfair Display', serif;
+    --Roboto: 'Roboto', sans-serif;
+    --dark: #3c393d;
+    --exdark: #2b2b2b;
+}
+*{
+    list-style: none;
+    box-sizing: border-box;
+    font-family: var(--Montserrat);
+    text-align: center;
+    align-items: center;
+}
+body{
+    width: 1366px;
+    line-height: 1.4;
+    margin: auto;
+    display: flex;
+    overflow-x: hidden;
+    color: var(--dark);
+}
+.home{
+    position: relative;
+    width: 1366px;
+    height: 5196px;
+}
+.container{
+    max-width: 880px;
+    height: 52px;
+    margin: 0 auto;
+    top: 0;
+}
+header{
+    position: absolute;
+    width: 1366px;
+    height: 950px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/bgc.png) center/cover no-repeat fixed;
+}
+.navbar{
+    position: absolute;
+    width: 1000px;
+    height: 57px;
+    top: 25px;
+    left: 183px;
+    padding: 1.2rem;
+}
+.navigation{
+    position: absolute;
+    width: 1000px;
+    height: 57px;
+    top: 0;
+    left: 0;
+}
+.navbar-nav{
+    position: absolute;
+    width: 321px;
+    height: 21px;
+    top: 18px;
+    left: 4px;
+    display: inline-block;
+}
+.navbar-nav .hamberger-menu{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 2.5px;
+    margin: 0;
+    left: 16px;
+    color: #fff;
+} 
+.navbar-nav a{
+    position: absolute;
+    height: 21px;
+    top: 0;
+    padding: 2px;
+    font-family: var(--Playfair);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.3px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+.navbar-nav .one{
+    width: 98px;
+    left: 40px;
+}
+.navbar-nav .two{
+    width: 86px;
+    left: 150px;
+}
+.navbar-nav .three{
+    width: 68px;
+    left: 242px;
+}
+.navigation .logo{
+    position: absolute;
+    width: 200px;
+    height: 53px;
+    top: 0;
+    left: 400px;
+}
+.navigation .logo a{
+    width: 100%;
+    height: 53px;
+    color: #fff;
+    font-size: 2rem;
+    display: block;
+    text-decoration: none;
+    font-family: var(--Montserrat);
+    letter-spacing: 1px;
+}
+.navigation .logo .jevelry-vector{
+    position: absolute;
+    width: 19.9px;
+    height: 19.9px;
+    top: 18px;
+    left: 14.5px;
+    margin: 0;
+    display: flex;
+    z-index: 1000px;
+}
+.navigation .logo .two-vector{
+    position: absolute;
+    left: 166.5px;
+}
+.navigation .logo img{
+    width: 100%;
+    top: 0;
+}
+.search-box{
+    position: absolute;
+    width: 80px;
+    height: 21px;
+    top: 18px;
+    left: 670px;
+    display: flex;
+    align-items: center;
+}
+.lupa-box{
+    position: absolute;
+    width: 24px;
+    height: 21px;
+    top: 1px;
+    left: 2px;
+}
+.lupa-box a{
+    position: absolute;
+    width: 24px;
+    height: 21px;
+    left: 0;
+    text-align: center;
+    text-decoration: none;
+}
+.lupa-box a .lupa{
+    width: 24px;
+    height: 21px;
+    line-height: 19px;
+    color: #fff;
+}
+.lupa-box .lupa::before{
+    position: absolute;
+    width: 24px;
+    height: 21px;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+.search-text-box{
+    position: absolute;
+    width: 41px;
+    height: 21px;
+    top: 1px;
+    left: 39px;
+}
+.search-text-box a{
+    display: flex;
+    width: 41px;
+    height: 21px;
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--Roboto);
+    color: #fff;
+}
+.user-edit-registr{
+    position: absolute;
+    width: 210px;
+    height: 21px;
+    top: 18px;
+    left: 769px;
+    text-align: left;
+}
+.registration{
+    position: absolute;
+    width: 135px;
+    height: 21px;
+    top: 1px;
+    left: 0;
+}
+.registration a{
+    text-align: right;
+    font-family: var(--Montserrat);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    text-decoration: none;
+    color: #fff;
+}
+.create-user{
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    top: 2px;
+    left: 153px;
+}
+.create-user a{
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+}
+.create-user .create{
+    width: 21px;
+    height: 21px;
+    color: #fff;
+}
+.create-user .create::before{
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    cursor: pointer;
+    left: 0;
+    top: 0;
+}
+.create-like{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 2px;
+    left: 192px;
+}
+.like{
+    width: 18px;
+    height: 18px;
+    color: #fff;
+    top: 0;
+}
+.like::before{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+.create-like a{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+}
+.main-text-box{
+    position: absolute;
+    width: 666px;
+    height: 49px;
+    top: 523px;
+    left: 350px;
+}
+.main-text-box p{
+    position: absolute;
+    width: 100%;
+    height: 49px;
+    margin: 0;
+    font-family: var(--Roboto);
+    font-weight: bold;
+    font-size: 36px;
+    color: #fff;
+    line-height: 46px;
+    text-align: center;
+}
+.katalog-box{
+    position: absolute;
+    width: 250px;
+    height: 51px;
+    top: 622px;
+    left: 558px;
+    padding: 10px 25px;
+    border: 1px solid #fff;
+    background-color: #333333;
+}
+.button-one{
+    width: 191px;
+    height: 21px;
+    color: #fff;
+    font-size: 15px;
+    font-family: var(--Montserrat);
+    line-height: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 4px 2px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.one-line{
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    margin: 0;
+    top: 753px;
+    left: 0;
+    border: 1px solid #fff;
+}
+.first-screen-brands{
+    position: absolute;
+    width: 1060px;
+    height: 58px;
+    top: 785px;
+    left: 153px;
+    overflow-x: hidden;
+}
+.brands-group{
+    width: 1060px;
+    height: 58px;
+    margin: 0;
+    list-style: none;
+}
+.brands-group::before{
+    width: 1060px;
+    height: 58px;
+    top: 0;
+    margin: 0;
+}
+.brands-group-item{
+    width: 160px;
+    height: 58px;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    border-right: 1px solid #fff;
+}
+.brands-group-item img{
+    position: absolute;
+    width: 140px;
+    height: 58px;
+    top: 0;
+    left: 0;
+}
+.brands-group .one-item{
+    position: absolute;
+    left: 0;
+}
+.brands-group .two-item{
+    position: absolute;
+    left: 180px;
+}
+.brands-group .three-item{
+    position: absolute;
+    left: 360px;
+}
+.brands-group .four-item{
+    position: absolute;
+    left: 540px;
+}
+.brands-group .fief-item{
+    position: absolute;
+    left: 720px;
+}
+.brands-group .sex-item{
+    position: absolute;
+    left: 900px;
+    border-right: none;
+}
+.category{
+    position: absolute;
+    width: 1060px;
+    height: 874px;
+    top: 1050px;
+    left: 152px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid #D6D6D6; */
+}
+.container{
+    position: absolute;
+    max-width: 100%;
+    height: 874px;
+}
+.content-box{
+    position: absolute;
+    width: 330px;
+    height: 29px;
+    top: 0;
+    left: 365px;
+}
+.content-box p{
+    position: absolute;
+    width: 330px;
+    height: 29px;
+    margin: 0;
+    font-family: serif;
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: center;
+    color: #333333;
+}
+.category-types{
+    position: absolute;
+    width: 520px;
+    height: 41px;
+    top: 44px;
+    left: 270px;
+}
+.category-types p{
+    position: absolute;
+    width: 520px;
+    height: 41px;
+    margin: 0;
+    padding: 5px;
+    font-family: serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    line-height: 32px;
+    color: #333333;
+}
+.second-screen-list{
+    position: absolute;
+    width: 1036px;
+    height: 60px;
+    top: 145px;
+    left: 12px;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+.list-item{
+    position: absolute;
+    width: 155px;
+    height: 54px;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #D6D6D6;
+    background-color: #F9F9F9;
+    align-items: center;
+    display: inline-block;
+    cursor: pointer;
+}
+.internal-box{
+    position: absolute;
+    width: 155px;
+    height: 55px;
+    top: 3px;
+    left: 3px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    z-index: -1;
+    border: 1px solid #D6D6D6;
+    background-color: #F9F9F9;
+    align-items: center;
+    display: inline-block;
+    cursor: pointer;
+}
+.click{
+    position: absolute;
+    width: 92px;
+    height: 21px;
+    top: 17px;
+    left: 31.5px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: var(--Montserrat);
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #333333;
+}
+.one-click{
+    color: #fff;
+    margin: 0;
+}
+.second-screen-list .one-item{
+    position: absolute;
+    width: 155px;
+    height: 60px;
+    left: 0;
+    background-color: #333333;
+    color: #fff;
+}
+.second-screen-list .two-item{
+    position: absolute;
+    left: 176px;
+}
+.second-screen-list .three-item{
+    position: absolute;
+    left: 352px;
+}
+.second-screen-list .four-item{
+    position: absolute;
+    left: 528px;
+}
+.second-screen-list .fief-item{
+    position: absolute;
+    left: 704px;
+}
+.second-screen-list .sex-item{
+    position: absolute;
+    left: 879px;
+}
+.glavni-category-types{
+    position: absolute;
+    width: 1060px;
+    height: 614px;
+    top: 260px;
+    left: 0;
+}
+.glavni-category-types .container{
+    position: absolute;
+    width: 1060px;
+    height: 614px;
+    top: 0;
+    left: 0;
+}
+.glavni-category-types .row{
+    position: absolute;
+    width: 1036px;
+    height: 275px;
+    top: 0;  
+    left: 12px;
+    margin: auto;
+}
+.glavni-category-types .one-row{
+    position: absolute;
+    top: 0;
+}
+.glavni-category-types .two-row{
+    position: absolute;
+    top: 310px;
+}
+.glavni-category-types .row .card{
+    position: absolute;
+    width: 330px;
+    height: 265px;
+    top: 5px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    background-color: red;
+}
+.glavni-category-types .row .card img{
+    position: absolute;
+    width: 330px;
+    height: 265px;
+    top: 0;
+    left: 0;
+}
+.glavni-category-types .row .one-card{
+    position: absolute;
+    left: 5px;
+}
+.glavni-category-types .row .two-card{
+    position: absolute;
+    left: 353px;
+}
+.glavni-category-types .row .three-card{
+    position: absolute;
+    left: 701px;
+}
+.card .types-decoration{
+    position: absolute;
+    width: 144px;
+    height: 28px;
+    top: 222px;
+    left: 93px;
+}
+.card .types-decoration .decoration-text{
+    position: absolute;
+    width: 100%;
+    height: 28px;
+    top: 0;
+    margin: 0;
+    text-align: center;
+    font-family: var(--Playfair);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: 10%;
+    color: #fff;
+    text-transform: uppercase;
+}
+.our-salon{
+    position: absolute;
+    width: 1366px;
+    height: 541px;
+    top: 2021px;
+    left: 0;
+    border: 1px solid #333333;
+    background: linear-gradient(rgba(180, 180, 180, 0), rgba(51, 51, 51, 1)), url(../img/our_salon.png) center/cover no-repeat fixed;
+}
+.our-salon .min-text{
+    position: absolute;
+    width: 326px;
+    height: 29px;
+    top: 100px;
+    left: 518px;
+}
+.our-salon .min-text p{
+    position: absolute;
+    width: 100%;
+    height: 29px;
+    margin: 0;
+    text-align: center;
+    font-family: var(--Montserrat);
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #fff;
+}
+.our-salon .main-text{
+    position: absolute;
+    width: 516px;
+    height: 41px;
+    top: 144px;
+    left: 425px;
+}
+.our-salon .main-text h3{
+    position: absolute;
+    width: 100%;
+    height: 41px;
+    margin: 0;
+    font-family: var(--Montserrat);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+}
+.our-salon .max-text{
+    position: absolute;
+    width: 706px;
+    height: 100px;
+    top: 230px;
+    left: 330px;
+}
+.our-salon .max-text p{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    padding: 0px 10px;
+    font-family: var(--Montserrat);
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    color: #fff;
+    text-align: justify;
+}
+.our-salon .text-button{
+    position: absolute;
+    width: 212px;
+    height: 51px;
+    top: 390px;
+    left: 577px;
+    border: 1px solid #333333;
+    background-color: #fff;
+}
+.our-salon .text-button .onclick{
+    position: absolute;
+    width: 154px;
+    height: 21px;
+    top: 15px;
+    left: 29px;
+    margin: 0;
+    padding: 0;
+    font-family: var(--Montserrat);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    color: #333333;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10%;
+}
+.glavni-mini-category{
+    position: absolute;
+    width: 1366px;
+    height: 1761px;
+    top: 2562px;
+    left: 0;
+}
+.glavni-mini-category .container{
+    position: absolute;
+    max-width: 100%;
+    height: 1761px;
+    top: 0;
+    left: 0;
+}
+.one-category-box{
+    position: absolute;
+    width: 1060px;
+    height: 626px;
+    top: 120px;
+    left: 153px;
+    background-color: #fff;
+    /* border: 1px dashed #D6D6D6; */
+}
+.glavni-mini-category .container .row{
+    position: absolute;
+    width: 1036px;
+    height: 370px;
+    top: 145px;
+    left: 12px;
+    margin: auto;
+}
+.glavni-mini-category .article-box{
+    position: absolute;
+    width: 330px;
+    height: 29px;
+    top: 0;
+    left: 365px;
+}
+.glavni-mini-category .article-box p{
+    position: absolute;
+    width: 100%;
+    height: 29px;
+    top: 0;
+    text-align: center;
+    font-family: var(--Montserrat);
+    font-style: normal;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29px;
+    margin: 0;
+    color: #333333;
+}
+.glavni-mini-category .advice-box{
+    position: absolute;
+    width: 1036px;
+    height: 41px;
+    top: 44px;
+    left: 12px;
+    align-items: center;
+}
+.glavni-mini-category .advice-box p{
+    position: absolute;
+    width: 100%;
+    height: 41px;
+    top: 0;
+    text-align: center;
+    font-family: var(--Montserrat);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0;
+    color: #333333;
+}
+.glavni-mini-category .row{
+    position: absolute;
+    width: 1036px;
+    height: 370px;
+    top: 0;  
+    left: 12px;
+    margin: auto;
+}
+.glavni-mini-category .one-row{
+    position: absolute;
+    top: 0;
+}
+.glavni-mini-category .row .card{
+    position: absolute;
+    width: 330px;
+    height: 360px;
+    top: 5px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    /* background-color: red; */
+}
+.glavni-mini-category .row .card img{
+    position: absolute;
+    width: 330px;
+    height: 360px;
+    top: 0;
+    left: 0;
+}
+.glavni-mini-category .row .one-card{
+    position: absolute;
+    left: 5px;
+}
+.glavni-mini-category .row .two-card{
+    position: absolute;
+    left: 353px;
+}
+.glavni-mini-category .row .three-card{
+    position: absolute;
+    left: 701px;
+}
+.card .one-type{
+    position: absolute;
+    width: 144px;
+    height: 87px;
+    top: 238px;
+    left: 93px;
+}
+.card .two-type{
+    position: absolute;
+    width: 182px;
+    height: 87px;
+    top: 238px;
+    left: 74px;
+}
+.card .three-type{
+    position: absolute;
+    width: 182px;
+    height: 87px;
+    top: 238px;
+    left: 74px;
+}
+.card .decoration-text{
+    position: absolute;
+    width: 100%;
+    height: 87px;
+    top: 0;
+    margin: 0;
+    text-align: center;
+    font-family: var(--Playfair);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;
+    color: #fff;
+}
+.one-category-box .blog-button{
+    position: absolute;
+    width: 236px;
+    height: 51px;
+    bottom: 0;
+    left: 412px;
+    border: 1px solid #333333;
+    background-color: #2b2b2b;
+}
+.one-category-box .blog-button .onclick{
+    position: absolute;
+    width: 185px;
+    height: 21px;
+    top: 15px;
+    left: 29px;
+    margin: 0;
+    padding: 0;
+    font-family: var(--Quicksand);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10%;
+}
+.two-category-box{
+    position: absolute;
+    width: 1060px;
+    height: 745px;
+    top: 866px;
+    left: 153px;
+    background-color: #fff;
+    /* border: 1px dashed #D6D6D6; */
+}
+.glavni-mini-category .container .two-row{
+    position: absolute;
+    width: 1036px;
+    height: 600px;
+    top: 145px;
+    left: 12px;
+    margin: auto;
+    /* background-color: violet; */
+}
+.two-row .one-hover{
+    position: absolute;
+    width: 513px;
+    height: 295px;
+    top: 5px;
+    left: 5px;
+    margin: 0;
+    padding: 0;
+}
+.two-row .two-hover{
+    position: absolute;
+    width: 256.5px;
+    height: 295px;
+    top: 5px;
+    left: 518px;
+    margin: 0;
+    padding: 0;
+}
+.two-row .two-hover img{
+    position: absolute;
+    width: 100%;
+    height: 295px;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+.two-row .three-hover{
+    position: absolute;
+    width: 256.5px;
+    height: 295px;
+    top: 5px;
+    left: 774.5px;
+    margin: 0;
+    padding: 0;
+}
+.two-row .three-hover img{
+    position: absolute;
+    width: 100%;
+    height: 295px;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+.two-row .four-hover{
+    position: absolute;
+    width: 256.5px;
+    height: 295px;
+    bottom: 5px;
+    left: 5px;
+    margin: 0;
+    padding: 0;
+}
+.two-row .four-hover img{
+    position: absolute;
+    width: 100%;
+    height: 295px;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+.two-row .fief-hover{
+    position: absolute;
+    width: 256.5px;
+    height: 295px;
+    bottom: 5px;
+    left: 261.5px;
+    margin: 0;
+    padding: 0;
+}
+.two-row .fief-hover img{
+    position: absolute;
+    width: 100%;
+    height: 295px;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+.two-row .sex-hover{
+    position: absolute;
+    width: 513px;
+    height: 295px;
+    bottom: 5px;
+    left: 518px;
+    margin: 0;
+    padding: 0;
+}
+.главни-смотреть-видео{
+    position: absolute;
+    width: 513px;
+    height: 295px;
+    align-items: center;
+    top: 0;
+    left: 0;
+    background: url('../img/img-hover1.png'), #000000 20%;
+}
+.смотреть-видео{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 107.5px;
+    left: 216.5px;
+    margin: 0;
+    padding: 0;
+}
+.two-row .one-hover a{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 5px;
+    left: 5px;
+    margin: 0;
+}
+.two-row .one-hover img{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+.sex-hover .sex{
+    position: absolute;
+    width: 513px;
+    height: 295px;
+    align-items: center;
+    top: 0;
+    left: 0;
+    background: url('../img/img-hover6.png'), #000000 20%;
+}
+.two-row .sex-hover img{
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+.two-row .sex-hover a{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 5px;
+    left: 5px;
+    margin: 0;
+}
+.two-row .sex-hover img{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+.two-salon{
+    position: absolute;
+    width: 1366px;
+    height: 478px;
+    top: 4323px;
+    left: 0;
+    border: 1px solid #333333;
+    background: linear-gradient(rgba(180, 180, 180, 0), rgba(51, 51, 51, 1)), url(../img/our_salon.png) center/cover no-repeat fixed;
+}
+.two-salon .min-text{
+    position: absolute;
+    width: 866px;
+    height: 29px;
+    top: 100px;
+    left: 250px;
+}
+.our-salon .min-text p{
+    position: absolute;
+    width: 100%;
+    height: 29px;
+    margin: 0;
+    text-align: center;
+    font-family: var(--Montserrat);
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #fff;
+}
+.our-salon .main-text{
+    position: absolute;
+    width: 1066px;
+    height: 41px;
+    top: 144px;
+    left: 150px;
+}
+.our-salon .main-text h3{
+    position: absolute;
+    width: 100%;
+    height: 41px;
+    margin: 0;
+    font-family: var(--Montserrat);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+}
+.two-salon .subscribe_list-group{
+    position: absolute;
+    width: 245px;
+    height: 105px;
+    top: 248px;
+    left: 296.5px;
+    display: block;
+    margin: 0;
+    padding: 5px;
+}
+.subscribe_list_item{
+    width: 240px;
+    height: 25px;
+    display: block;
+    margin: 0;
+    list-style: none;
+}
+.one_subscribe_list_item{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.two_subscribe_list_item{
+    position: absolute;
+    top: 40px;
+    left: 0;
+}
+.three_subscribe_list_item{
+    position: absolute;
+    top: 80px;
+    left: 0;
+}
+.subscribe_list_item_link{
+    position: absolute;
+    width: 208px;
+    height: 25px;
+    top: 0;
+    margin: 0;
+    padding: 2px;
+    font-weight: 400;
+    font-size: 19px;
+    font-style: normal;
+    line-height: 22px;
+    text-decoration: none;
+    color: #fff;
+    text-align: left;
+    display: block;
+    right: 0;
+}
+.right-icon{
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: 4px;
+    left: 5px;
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    border: 1px solid transparent;
+}
+.right-icon::before{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+.two-salon .email-big-box{
+    position: absolute;
+    width: 448px;
+    height: 113px;
+    top: 248px;
+    left: 621.5px;
+    border: 1px solid #D6D6D6;
+}
+.email-small-box{
+    position: absolute;
+    width: 418px;
+    height: 85px;
+    top: 14px;
+    left: 15px;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+.email-small-box label{
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    top: 20px;
+    left: 22px;
+    border: 1px solid #D6D6D6;
+}
+.email-small-box input{
+    position: absolute;
+    width: 100px;
+    height: 16px;
+    top: 34.5px;
+    left: 42px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    color: gray;
+    border: none;
+}
+.email-small-box .tugma{
+    position: absolute;
+    width: 159px;
+    height: 45px;
+    top: 20px;
+    left: 237px;
+    border: 1px solid #fff;
+    padding: 14px 35px;
+    background-color: #333333;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #fff;
+}
+.home footer{
+    position: absolute;
+    width: 1060px;
+    height: 295px;
+    top: 4881px;
+    left: 153px;
+}
+footer .container{
+    position: absolute;
+    width: 1060px;
+    height: 295px;
+    top: 0;
+    background-color: #fff;
+}
+footer .container .row{
+    position: absolute;
+    width: 1050px;
+    height: 295px;
+    top: 0;
+    left: 4px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+footer .container .row .card{
+    position: absolute;
+    width: 245px;
+    height: 194px;
+    top: 5px;
+    left: 7px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    border: none;
+} 
+.card .Полезные-ссылки{
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+.card .Полезные-ссылки p{
+    position: absolute;
+    width: 100%;
+    height: 25px;
+    top: 0;
+    text-align: left;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 0;
+    font-style: normal;
+    line-height: 25px;
+    letter-spacing: 0.4px;
+    color: #3c393d;
+    text-transform: uppercase;
+}
+.column-text-box{
+    height: 21px;
+    margin: 0;
+    padding: 2px;
+}
+.column-text-box p{
+    position: absolute;
+    width: 100%;
+    height: 21px;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    font-family: var(--Montserrat);
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #3c393d;
+    text-align: left;
+    letter-spacing: 0.2px;
+}
+.Доставка{
+    position: absolute;
+    width: 63px;
+    top: 65px;
+}
+.Оплата{
+    position: absolute;
+    width: 51px;
+    top: 101px;
+}
+.Акции{
+    position: absolute;
+    width: 44px;
+    top: 137px;
+}
+.Политика{
+    position: absolute;
+    width: 207px;
+    top: 171px;
+}
+footer .container .row .two-card{
+    position: absolute;
+    height: 180px;
+    left: 260.6px;
+} 
+.card hr{
+    position: absolute;
+    width: 100%;
+    top: 35px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #333333;
+}
+.card .оплата{
+    position: absolute;
+    width: 80px;
+}
+.card .lorem-column-text{
+    position: absolute;
+    width: 245px;
+    height: 63px;
+    top: 65px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+.card .lorem-column-text p{
+    position: absolute;
+    width: 243px;
+    height: 63px;
+    top: 0;
+    text-align: justify;
+    font-family: var(--Montserrat);
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 21px;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+}
+.row .two-card .rectangle{
+    position: absolute;
+    width: 45px;
+    height: 30px;
+    top: 149px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+.row .two-card .rectangle img{
+    position: absolute;
+    width: 45px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 3px;
+}
+.row .two-card .Rectangle2{
+    position: absolute;
+    left: 65px;
+}
+footer .container .row .three-card{
+    position: absolute;
+    width: 275px;
+    height: 159px;
+    left: 514.3px;
+}
+.card .контакты{
+    position: absolute;
+    width: 104px;
+}
+.column-box{
+    width: 275px;
+    height: 21px;
+    margin: 0;
+    padding: 2px;
+}
+.one-column-box{
+    position: absolute;
+    top: 65px;
+}
+.two-column-box{
+    position: absolute;
+    top: 101px;
+}
+.three-column-box{
+    position: absolute;
+    top: 137px;
+}
+
+.column-box .img-card{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0.5px;
+    margin: 0;
+    padding: 1px;
+}
+.column-box .img-card img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+.column-box .number-one{
+    position: absolute;
+    width: 234px;
+    top: 0;
+    left: 40px;
+}
+.column-box .number-two{
+    position: absolute;
+    width: 234px;
+    top: 0;
+    left: 40px;
+}
+.column-box .email{
+    position: absolute;
+    width: 234px;
+    top: 0;
+    left: 40px;
+}
+footer .container .row .four-card{
+    position: absolute;
+    height: 176px;
+    left: 798px;
+}
+.card .социальные{
+    position: absolute;
+    width: 198px;
+}
+.four-card .logo-brands{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+.logo-brands a{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+}
+.four-card .logo-brands .icons-brands{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    top: 3px;
+    left: 3px;
+    padding: 0;
+    color: #333333;  
+}
+.four-card .logo-brands .icons-brands::before{
+    position: absolute;
+    width: 19px;
+    height: 16px;
+    margin: 0;
+    padding: 0;
+    top: 2px;
+    left: 0;
+}
+.carbon-logo{
+    position: absolute;
+    left: 0;
+}
+.entypo-social{
+    position: absolute;
+    left: 42px;
+}
+.bxl-logo{
+    position: absolute;
+    left: 84px;
+}
+.bx-bxl-logo{
+    position: absolute;
+    left: 126px;
+}
+.simple-icons-etsy{
+    position: absolute;
+    left: 168px;
+}
+.footer_last_line{
+    position: absolute;
+    width: 100%;
+    height: 41px;
+    top: 243px;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+.last_line{
+    position: absolute;
+    width: 1036px;
+    height: 2px;
+    top: 0;
+    left: 7px;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+    border: 1px solid #333333;
+}
+.footer_last_line .jevelry-box{
+    position: absolute;
+    width: 139px;
+    height: 21px;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 2px;
+}
+.footer_last_line .text-box{
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    top: 0;
+    left: 0;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    font-family: var(--Montserrat);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    color: #333333;
+}
+.footer_last_line .Договор-box{
+    position: absolute;
+    width: 192px;
+    height: 21px;
+    bottom: 0;
+    left: 300px;
+    margin: 0;
+    padding: 2px;
+}
+.footer_last_line .Контрагентам{
+    position: absolute;
+    width: 93px;
+    height: 21px;
+    bottom: 0;
+    left: 653px;
+    margin: 0;
+    padding: 2px;
+}
+.footer_last_line .web-site-link{
+    position: absolute;
+    width: 130px;
+    height: 21px;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    padding: 2px;
+}
+.footer_last_line .web-site-link h3{
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    top: 0;
+    left: 0;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+    color: #333333;
+}
+.navbar-nav i{
+    display: none;
+}
+@media only screen and (max-width: 700px) {
+    .navbar-nav a{
+        display: none;
+    }
+    .navbar-nav i{
+        display: block;
+    }
+  }
+@media only screen and (max-width: 350px){
+   .main-text-box p{
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+   }
+   .glavni-mini-category .container .row .card{
+     margin: 2rem 0;
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+     gap: 2rem;
+   }
+}
